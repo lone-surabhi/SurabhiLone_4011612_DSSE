@@ -48,7 +48,7 @@ def analyze_camel_aggregate(github_url, issue_ids):
     print(f"Average DMM Metric:             {avg_dmm_metric:.4f}")
     print("=" * 45)
 
-CAMEL_URL = "https://github.com/apache/camel.git"
+CAMEL_URL = "https://github.com/apache/camel"
 TARGET_ISSUES = ['CAMEL-180', 'CAMEL-321', 'CAMEL-1818', 'CAMEL-3214', 'CAMEL-18065']
 
 if __name__ == "__main__":
